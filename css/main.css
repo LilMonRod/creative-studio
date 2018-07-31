@@ -102,6 +102,9 @@ a{
 .box:first-child{
   margin-left: 0;
 }
+.subtitle {
+  border-bottom: solid 6px black;
+}
 
 /****************
       Portfolio
