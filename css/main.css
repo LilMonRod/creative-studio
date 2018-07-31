@@ -97,6 +97,7 @@ a{
   width: 285px;
   float: left;
   margin-left: 52px;
+  text-align: justify;
 }
 
 .box:first-child{
@@ -105,11 +106,21 @@ a{
 .subtitle {
   border-bottom: solid 6px black;
 }
+#read {
+  color: #fe9b00;
 
+}
+#rafi {
+  color: black;
+  font-style: italic;
+  font-size: 14px;
+}
 /****************
       Portfolio
 *****************/
-
+.porto + img{
+  margin-left: 20px;
+}
 /****************
       Info
 *****************/
