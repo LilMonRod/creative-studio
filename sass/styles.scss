@@ -34,26 +34,13 @@
   /****************
         Portfolio
   *****************/
-  @import 'general/portofolio';
+@import 'general/portofolio';
 
   /****************
         Info
   *****************/
-  #info {
-    width: 640px;
-    float: left;
-    margin-right: 60px;
-  
-  }
-  #conect {
-    float: right;
-    margin-top: 25px;
-  }
-  #contact {
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-  }
-  
+@import 'general/info';
+
 /****************
       Footer
 *****************/
