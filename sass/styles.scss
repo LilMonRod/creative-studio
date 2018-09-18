@@ -29,15 +29,13 @@
   /****************
         Content
   *****************/
-  
-  
+@import 'general/content';
+
   /****************
         Portfolio
   *****************/
-  .porto + img{
-    margin-left: 20px;
-  }
-  
+  @import 'general/portofolio';
+
   /****************
         Info
   *****************/
