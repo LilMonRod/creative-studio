@@ -1,6 +1,13 @@
 #header{
+  position: fixed;
+  border-top: 17px solid #090909;
+  background-color:  rgb(244, 244, 244);
+  width: 100%;
+}
+.align {
+  width: 960px;
+  margin: 0 auto;
   position: relative;
-  margin-top: 20px;
 }
 
 .logo{

@@ -313,9 +313,11 @@ template {
   width: 960px;
   margin: 0 auto; }
 
+.padd {
+  padding-top: 160px; }
+
 body {
   margin: 0;
-  border-top: 17px solid #090909;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #f4f4f4; }
 
@@ -342,8 +344,15 @@ a {
       Header
 *****************/
 #header {
-  position: relative;
-  margin-top: 20px; }
+  position: fixed;
+  border-top: 17px solid #090909;
+  background-color: #f4f4f4;
+  width: 100%; }
+
+.align {
+  width: 960px;
+  margin: 0 auto;
+  position: relative; }
 
 .logo {
   float: left; }
